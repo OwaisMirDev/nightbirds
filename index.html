@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <nav class="navbar">
+            <img src="./images/NIGHT BIRDS.png" alt="" height="60">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about-us" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#popular-places" class="nav-link">Popular Places</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact-us" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-home">
+        <section class="showcase">
+            <div class="video-container">
+                <video src="./videos/untitled.mp4" autoplay muted loop></video>
+            </div>
+            <div class="content">
+                <h1>Explore the Mystical Beauty of Kashmir with <span><span class="main">Night Birds</span> Tour and
+                        Travels</span></h1>
+                <p>Discover <span>Kashmir’s</span> beauty with tours tailored just for you</p>
+                <div class="cta-buttons">
+                    <a href="#contact-us" class="btn-primary">Contact Us</a>
+                        <a href="https://wa.me/+917006696339" class="btn-secondary"><img src="./svg/whatsapp.svg" alt="" height="20">Book on WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+<!-- About Us Section with Cards and Icons -->
+<section id="about-us" class="about-section">
+    <h2>About <span>Night Birds</span> Tour and Travels</h2>
+    <p>At Night Birds Tour and Travels, we craft personalized travel experiences to showcase the breathtaking beauty of Kashmir. Explore, relax, and create unforgettable memories with us.</p>
+    <div class="card-container">
+      <div class="card">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3>Personalized Tours</h3>
+        <p>Tailor-made itineraries for your dream journey.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-user-friends"></i>
+        <h3>Local Expertise</h3>
+        <p>Guided by locals who know Kashmir best.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-star"></i>
+        <h3>Exceptional Service</h3>
+        <p>Friendly support to make your trip unforgettable.</p>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- Popular Places Section -->
+<section id="popular-places" class="places-section">
+    <h2>Popular Places in <span>Kashmir</span></h2>
+    <p>Discover the most visited and breathtaking destinations in Kashmir.</p>
+    <div class="places-container">
+      <div class="place-card" style="background-image: url('images/Srinagar.jpg');">
+        <a href="https://www.google.com/maps/place/Srinagar/@34.1068927,74.6419421,11z/data=!3m1!4b1!4m6!3m5!1s0x38e1855686e3c5ef:0x66244b7cc1e305c6!8m2!3d34.0836708!4d74.7972825!16zL20vMDFxXzIy?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Srinagar</h3>
+        </a>
+      </div>
+      <div class="place-card" style="background-image: url('images/Gulmarg.jpg');">
+        <a href="https://www.google.com/maps/place/Gulmarg+193403/@34.0506689,74.3524415,14z/data=!3m1!4b1!4m6!3m5!1s0x38e1af91308dd977:0x7a5cc65c8fb01df7!8m2!3d34.0483704!4d74.3804791!16zL20vMDU0eXMw?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Gulmarg</h3>
+        </a>
+      </div>
+      <div class="place-card" style="background-image: url('images/Pahalgam.jpg');">
+        <a href="https://www.google.com/maps/place/Pahalgam/@34.0104516,75.2376827,13z/data=!3m1!4b1!4m6!3m5!1s0x38e23f2a7b9509df:0x8c1cff001fb18c5!8m2!3d34.0160751!4d75.3149796!16zL20vMGY1d3du?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Pahalgam</h3>
+        </a>
+      </div>
+      <div class="place-card" style="background-image: url('images/Sonamarg.jpg');">
+        <a href="https://www.google.com/maps/place/Sonamarg/@34.3028446,75.2865717,16z/data=!3m1!4b1!4m6!3m5!1s0x38e234e197d78061:0x5ccdc93dd4660335!8m2!3d34.3031616!4d75.293111!16s%2Fm%2F03cgp27?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Sonamarg</h3>
+        </a>
+      </div>
+      <div class="place-card" style="background-image: url('images/Dal.jpg');">
+        <a href="https://www.google.com/maps/place/Dal+Lake/@34.1137352,74.7768028,13z/data=!3m1!4b1!4m6!3m5!1s0x38e185c268876847:0xbf6def9295995179!8m2!3d34.1105857!4d74.8682569!16zL20vMDZkNmJk?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Dal Lake</h3>
+        </a>
+      </div>
+      <div class="place-card" style="background-image: url('images/Betaab.jpg');">
+        <a href="https://www.google.com/maps/place/Hajan+Valley/@34.0545079,75.3612173,17z/data=!3m1!4b1!4m6!3m5!1s0x38e240b888816139:0xf506e0ee7ebc9986!8m2!3d34.0545035!4d75.3637922!16s%2Fm%2F0k75mml?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Betaab Valley</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  
+
+
+
+
+  <!-- Contact Us Section -->
+<section id="contact-us" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>We’re here to assist you with all your travel plans. Get in touch today!</p>
+    <div class="contact-container">
+      <div class="contact-item">
+        <i class="fas fa-phone-alt"></i>
+        <a href="tel:+917006696339">+917006696339</a>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone-alt"></i>
+        <a href="tel:+918491004031">+918491004031</a>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:travel.nightbirds@gmail.com">travel.nightbirds@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-whatsapp"></i>
+        <a href="https://wa.me/+917006696339" target="_blank">Message Us on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+  
+
+    </main>
+
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+      <!-- Brand Name -->
+      <div class="footer-brand">
+        <h3>Night Birds Tour and Travels</h3>
+        <p>Discover the beauty of Kashmir with us. Your journey, our responsibility.</p>
+      </div>
+  
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#main-home">Home</a></li>
+          <li><a href="#popular-places">Popular Places</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+          <li><a href="#about-us">About Us</a></li>
+        </ul>
+      </div>
+  
+      <!-- Contact Info -->
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <p><i class="fas fa-phone-alt"></i> +917006696339</p>
+        <p><i class="fas fa-phone-alt"></i> +918491004031</p>
+        <p><i class="fas fa-envelope"></i> travel.nightbirds@gmail.com</p>
+        <p><i class="fas fa-map-marked-alt"></i> Khanyar, Srinagar</p>
+
+      </div>
+  
+      <!-- Social Media -->
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/travelwithnightbirds?igsh=MTBpeWJhcjN2cWFkcQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Night Birds Tour and Travels. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
